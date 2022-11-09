@@ -1,0 +1,11 @@
+.titulo{
+	width: 50%;
+	height: 50%;
+	background-color: blue;
+	padding: 20px;
+	color: white;
+}
+.formp{
+	background-color: rgb(225, 175, 82);
+	text-align: center;
+}

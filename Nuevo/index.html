@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
+    <script>
+        $(document).ready(function () {
+        $('#example').DataTable();
+        });
+    </script>
+
+</head>
+<body>
+    <table id="example" class="table table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Profesion</th>
+                <th>Pais</th>
+                <th>Curso</th>
+                <th>Actualizar</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>San Francisco</td>
+                <td>66</td>
+                <td><input type="submit" value="Guardar"/></td>
+                <td><input type="reset" value="Eliminar"/></td>
+            </tr>
+            <tr>
+                <td>Cedric Kelly</td>
+                <td>Senior Javascript Developer</td>
+                <td>Edinburgh</td>
+                <td>22</td>
+                <td><input type="submit" value="Guardar"/></td>
+                <td><input type="reset" value="Eliminar"/></td>
+            </tr>
+            <tr>
+                <td>Airi Satou</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>33</td>
+                <td><input type="submit" value="Guardar"/></td>
+                <td><input type="reset" value="Eliminar"/></td>
+            </tr>
+            <tr>
+                <td>Brielle Williamson</td>
+                <td>Integration Specialist</td>
+                <td>New York</td>
+                <td>61</td>
+                <td><input type="submit" value="Guardar"/></td>
+                <td><input type="reset" value="Eliminar"/></td>
+            </tr>
+            <tr>
+                <td>Herrod Chandler</td>
+                <td>Sales Assistant</td>
+                <td>San Francisco</td>
+                <td>101</td>
+                <td><input type="submit" value="Guardar"/></td>
+                <td><input type="reset" value="Eliminar"/></td>
+            </tr>
+            <tr>
+                <td>Rhona Davidson</td>
+                <td>Integration Specialist</td>
+                <td>Tokyo</td>
+                <td>55</td>
+                <td><input type="submit" value="Guardar"/></td>
+                <td><input type="reset" value="Eliminar"/></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th><input type="search" name="buscar" id="" placeholder="buscar"></th>
+                <th><input type="button" value="Buscar"></th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
